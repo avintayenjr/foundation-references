@@ -1,0 +1,11 @@
+@mixin test {
+  background-color: white;
+  font-size: 14px;
+}
+
+body {
+  @include test;
+    p {
+      @include test;
+    }
+}
